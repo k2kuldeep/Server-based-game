@@ -8,3 +8,4 @@
 - Now open XAMPP on your machine and start Apache Server and MySQL.
 - these files will be locally hosted.
 - Then open a browser and go to the url localhost/project/home.php
+- project of college in 3rd sem
