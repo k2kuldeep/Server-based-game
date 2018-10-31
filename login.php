@@ -8,7 +8,7 @@ $sql = ("SELECT * FROM gamedb.gamers WHERE uid='$uid' AND pwd='$pwd'");
 $res = mysqli_query($conn, $sql);
 
 if ($res) {
-    echo "You are Loged In";
+    echo "You are Logged In";
     header("Location: game.php");
 } else {
     echo "Incorrect Details: " . $sql . "<br>" . $conn->error;
